@@ -1,0 +1,6 @@
+@import './req1.css';
+
+.logo {
+  background: 'images/logo.png';
+  background: url('images/logo.png');
+}

@@ -10,6 +10,9 @@ npx snowpack build --config snowpack.config.js
 
 echo "Results:"
 npx tree -l 10 -f --base public
+echo "\e[38;5;240m// public/assets/app/javascript/main.js\e[0m"
+cat public/assets/app/javascript/main.js
+echo ''
 echo "\e[38;5;240m// public/assets/app/javascript/component/index.js\e[0m"
 cat public/assets/app/javascript/component/index.js
 echo ''

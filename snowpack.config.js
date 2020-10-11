@@ -4,8 +4,8 @@ module.exports = {
     'app/assets/javascript': '/app/javascript',
     'app/assets/stylesheets': '/app/stylesheets',
   },
-  aliases: {
-    'images': './app/images',
+  alias: {
+    'images': './app/assets/images',
   },
   devOptions: {
     out: './public/assets',
